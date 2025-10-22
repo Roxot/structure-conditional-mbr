@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["scmbr"]
+
+[project]
+name = "scmbr"
+description = "Structure-Conditional Minimum Bayes Risk"
+version = "1.0.0"
+authors = [
+    { name = "Bryan Eikema", email = "b.eikema@uva.nl" },
+    { name = "Anna Rutkiewicz", email = "annamonika.rutkiewicz@uzh.ch" },
+]
+requires-python = ">=3.7"
+
+dependencies = [
+
+]
+
+[project.scripts]
+scmbr-utility = "scmbr.compute_utility:main"
+scmbr-train = "scmbr.train:main"
+scmbr-eval = "scmbr.evaluate_structural_optimality:main"
+scmbr-generate = "scmbr.generate:main"

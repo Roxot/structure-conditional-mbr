@@ -1,0 +1,11 @@
+# Dataset License
+
+The structural variation datasets included in this repository are derived datasets created using:
+
+- DailyDialog: licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 (CC BY-NC-SA 4.0).
+  Source: Li et al. (2017), https://yanran.li/dailydialog.html
+  License: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+- Stanford Alpaca: licensed under Creative Commons Attribution-NonCommercial 4.0 (CC BY-NC 4.0).
+  Source: Taori et al. (2023), https://github.com/tatsu-lab/stanford_alpaca
+  License: https://creativecommons.org/licenses/by-nc/4.0/
