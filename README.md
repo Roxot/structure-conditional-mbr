@@ -8,8 +8,7 @@ We provide several structural variation datasets derived from DailyDialog and Al
 - [dataset/emotion.json](dataset/emotion.json)
 - [dataset/response-structure.json](dataset/response-structure.json)
 
-Each dataset contains conversational or instructional contexts, multiple generated candidate responses, and structural labels (e.g. dialogue act, emotion, or response format).  
-See [DATA_LICENSE](DATA_LICENSE) for details on dataset licensing and attribution.
+Each dataset contains conversational or instructional contexts, multiple generated candidate responses, and structural labels (e.g. dialogue act, emotion, or response format). See [DATA_LICENSE](DATA_LICENSE) for details on dataset licensing and attribution.
 
 ## Structure-Conditional MBR 
 
