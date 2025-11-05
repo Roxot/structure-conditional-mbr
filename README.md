@@ -8,7 +8,7 @@ We provide several structural variation datasets derived from DailyDialog and Al
 - [dataset/emotion.json](dataset/emotion.json)
 - [dataset/response-structure.json](dataset/response-structure.json)
 
-Each dataset contains conversational or instructional contexts, multiple generated candidate responses, and structural labels (e.g. dialogue act, emotion, or response format). See [DATA_LICENSE](DATA_LICENSE) for details on dataset licensing and attribution.
+Each dataset contains conversational or instructional contexts, multiple generated candidate responses, and structural labels (e.g. dialogue act, emotion, or response format). See [DATA_LICENSE](DATA_LICENSE) for details on dataset licensing and attribution. The code that was used to generate the dataset can be found at [github.com/the-anne/structural-variation-data-gen](https://github.com/the-anne/structural-variation-data-gen).
 
 ## Structure-Conditional MBR 
 
@@ -50,6 +50,8 @@ scmbr-generate -d dialogue-act -s test -m cutoff-bleurt --threshold 0.5 --out cu
 scmbr-generate -d dialogue-act -s test -m cluster-bleurt --cluster_model structure-embeddings-model --out cluster-generations.jsonl
 scmbr-generate -d dialogue-act -s test -m structure-embeddings-bleurt --threshold 0.8 --cluster_model structure-embeddings-model --out structure-embeddings-generations.jsonl
 ```
+
+We also evaluated the trained models on AlpacaEval and MT-Bench. The code for this evaluation can be found at [github.com/the-anne/instr-follow-eval](https://github.com/the-anne/sc-mbr-instr-follow-eval).
 
 ## Cite
 If you use these datasets or the code, please cite:
